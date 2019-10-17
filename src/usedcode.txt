@@ -1,0 +1,20 @@
+{this.state.tags.length === 0 && "Please add tags"}
+        {this.renderTags()}
+
+styles = {
+    fontSize: 50
+  };
+
+  formatCount() {
+      
+  }
+
+ <React.Fragment>
+        <span className={this.styles}>{this.formatCount()}</span>
+        <button
+          onClick={this.handleIncrement}
+          className="btn btn-secondary btn-sm m-3"
+        >
+          Increment
+        </button>
+      </React.Fragment>
